@@ -25,7 +25,7 @@ if (config.cors=="on"){
 
 async function randomString(len) {
 　　len = len || 6;
-　　let $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';    /****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/
+　　let $chars = '4b4c41d2dbba47d681df742992c5330f';    /****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/
 　　let maxPos = $chars.length;
 　　let result = '';
 　　for (i = 0; i < len; i++) {
